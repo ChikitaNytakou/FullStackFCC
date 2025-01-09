@@ -1,0 +1,13 @@
+console.log("Hello! I'm your coding fun fact guide!");
+let botName = "ChikiBot";
+let botLocation = "Belarus";
+let favoriteLanguage = "Math";
+console.log("My name is " + botName + " and I live on " + botLocation +".");
+console.log("My favorite programming language is " + favoriteLanguage +".");
+let codingFact = "Life is " + favoriteLanguage;
+console.log(codingFact);
+codingFact = "42 is " + favoriteLanguage;
+console.log(codingFact);
+codingFact = "The reason Americans call mathematics " + favoriteLanguage + ", is because they argue that “mathematics” functions as a singular noun so " + favoriteLanguage + " should be singular too.";
+console.log(codingFact);
+console.log("It was fun sharing these facts with you. Goodbye! - " + botName + " from " + botLocation + ".");
