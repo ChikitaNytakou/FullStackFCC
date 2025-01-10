@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name (required)</label>
+      <input placeholder="Nikita" required id="name" name="name" type="text"/>
+      <br/>
+      <label for="email" id="email-label">Email (required)</label>
+      <input placeholder="nikita@mail.com" required id="email" name="email" type="email"/>
+      <br/>
+      <label for="number-label" id="number-label">Age</label>
+      <input placeholder="18" id="number" name="number" type="number" min="3" max="100"/>
+      <br/>
+      <label for="dropdown">Where do you live?</label>
+      <select id="dropdown">
+        <option selected value="иelarus">Belarus</option>
+        <option value="abroad">Abroad</option>
+      </select>
+      <p>Do you have commercial experience in software development?</p>
+      <label for="yes-radio">Yes</label>
+      <input id="yes-radio" name="radio" value="yes" type="radio"/>
+      <label for="no-radio">No</label>
+      <input id="no-radio" name="radio" value="no" type="radio"/>
+      <p>What's your direction</p>
+      <label for="f-checkbox">Front</label>
+      <input id="f-checkbox" name="checkbox" value="Front" type="checkbox"/>
+      <for="b-checkbox">Back</label>
+      <input id="b-checkbox" name="checkbox" value="Back" type="checkbox"/>
+      <for="fs-checkbox">FullStack</label>
+      <input id="fs-checkbox" name="checkbox" value="FullStack" type="checkbox"/>
+      <p>Tell us about yourself
+</p>
+      <textarea rows="7" cols="30" name="about"></textarea>
+      <br/>
+      <br/>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
